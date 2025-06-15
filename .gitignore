@@ -1,29 +1,11 @@
-# Ignore heavy model checkpoints
-gpt2-roast-model/
-__pycache__/
-*.pyc
-*.pkl
-*.log
-*.pt
-*.safetensors
-*.zip
-*.tar
-*.tar.gz
-
-# Virtual env
-venv/
-env/
-
-# OS + Editor files
-.DS_Store
-*.swp
-*.swo
-*.bak
-*.tmp
-*.idea/
-*.vscode/
+# Ignore model files
+model/
 gpt2-roast-model/
 *.safetensors
 *.pt
+*.bin
 *.pkl
 *.zip
+
+# Ignore generated TTS output
+static/tts_output/
