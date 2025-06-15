@@ -1,9 +1,29 @@
+# Ignore heavy model checkpoints
+gpt2-roast-model/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.mp3
+*.pkl
+*.log
 *.pt
-*.bin
-logs/
-.env
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+
+# Virtual env
+venv/
+env/
+
+# OS + Editor files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.idea/
+*.vscode/
+gpt2-roast-model/
+*.safetensors
+*.pt
+*.pkl
+*.zip
